@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        margin: 0 auto;
+        margin-top: 120px;
+        border-collapse: collapse;
+      }
+      thead {
+        background-color: #737171;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Абзац - це блоковий елемент -->
+    <!-- <p>Блоковий елемент 1</p>
+<p>Блоковий елемент 2</p> -->
+
+    <!-- Посилання - це рядковий елемент -->
+
+    <!-- <a href="">Рядковий елемент 2</a> -->
+
+    <!-- <div
+      style="border: 1px solid greenyellow; width: 100px; height: 100px"
+    ></div>
+    <div
+      style="border: 1px solid greenyellow; width: 100px; height: 100px"
+    ></div>
+    <div
+      style="border: 1px solid greenyellow; width: 100px; height: 100px"
+    ></div>
+    <div style="border: 1px solid greenyellow"></div> -->
+
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU" alt="">
+
+<a href="">Рядковий елемент 3</a>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU" alt=""> -->
+
+    <!-- <ul>
+      <li>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU"
+          alt=""
+        />
+        <a href="">Рядковий елемент 1</a>
+        <p>Блоковий елемент 3</p>
+      </li>
+      <li>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU"
+          alt=""
+        />
+        <a href="">Рядковий елемент 1</a>
+        <p>Блоковий елемент 3</p>
+      </li>
+      <li>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy1bDVZy7UHv3gzBHeYssvLmyIY-F6c-FE1OnLUzuEAV_tqcaujAvQypCFnMGVUvE-vw&usqp=CAU"
+          alt=""
+        />
+        <a href="">Рядковий елемент 1</a>
+        <p>Блоковий елемент 3</p>
+      </li>
+    </ul> -->
+
+    <p>Всі права захищені &copy; Lex, 2023</p>
+    <p>Всі права захищені &#169; Lex, 2023</p>
+    <p>Всі права захищені &#xa9; Lex, 2023</p>
+
+    <p>&reg; &copy; &trade;</p>
+
+    ❤ &#10084; ⚠ &#9888;
+    <!-- ================== Форми ================================ -->
+
+    <h2>Форма реєстрації</h2>
+    <form name="reg" autocomplete="off">
+      <label for="name"> Ім'я </label>
+      <input id="name" type="text" placeholder="Введіть ім'я" />
+
+      <label for=""
+        >mail
+        <input type="email" autofocus />
+      </label>
+      <label for=""
+        >password
+        <input type="password" minlength="3" maxlength="5" />
+      </label>
+      <input type="checkbox" name="" id="" />
+      <input type="checkbox" name="" id="" />
+      <input type="checkbox" name="" id="" />
+      <input type="radio" name="" id="" />
+      <input type="radio" name="" id="" />
+      <input type="radio" name="" id="" />
+      <input type="range" name="" id="" />
+
+      <select name="select">
+        <!--Supplement an id here instead of using 'name'-->
+        <option value="value1">Значення 1</option>
+        <option value="value2" selected>Значення 2</option>
+        <option value="value3">Значення 3</option>
+      </select>
+
+      <button type="submit">відправити</button>
+    </form>
+
+    <!-- ================== Таблиці ================================ -->
+    <!-- <table> - контейнер таблиці
+            <thead> - шапка таблиці
+            <th> - комірка шапки
+            <tbody> - тіло таблиці
+            <tfoot> - підвал таблиці
+            <tr> - окремий рядок
+            <td> - окрема комірка
+            <thead> - шапка, обгортає групу рядків таблиці в області заголовка;
+            <tbody> - тіло, обгортає основну групу рядків таблиці;
+            <tfoot> - підвал, означає групу рядків таблиці в області нижнього  
+
+         colspan - об'єднує декілька стовпців в одному рядку
+         rowspan - об'єднує декілька рядків в одному стовпці -->
+
+    <table>
+      <caption>
+        Заголовок таблиці
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Cloud service</th>
+          <th colspan="3">Statistics</th>
+        </tr>
+        <tr>
+          <th>name</th>
+          <th>first name</th>
+          <th>age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Roman</td>
+          <td>Roman</td>
+          <td>Zeno</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Artem</td>
+          <td>Artem</td>
+          <td>Polishchyk</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>Artem</td>
+          <td>Artem</td>
+          <td>Polishchyk</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="main.html">main</a>
+
+
+
+    <ul>
+        <li>p</li>
+        <li>div</li>
+        <li>section</li>
+        <li>article</li>
+    </ul>
+
+    
+
+
+  </body>
+</html>
