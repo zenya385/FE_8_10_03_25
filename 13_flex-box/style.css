@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+}
+
+.list {
+  height: 350px;
+  width: 80%;
+  border: 1px solid #000;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* row-gap: 15px; */
+  /* column-gap: 15px; */
+}
+
+.item {
+  border: 1px solid #ef1717;
+  padding: 8px;
+  /* height: 50px; */
+}

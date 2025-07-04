@@ -1,0 +1,115 @@
+/* скидання стилі браузера або reset */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+body {
+  font-family: "Jost";
+}
+
+/*  стилі веб додатку
+ */
+
+ul {
+  border: 5px dashed #e81c1c;
+  /* border-width: 5px;
+  border-style: dashed;
+  border-color: #e81c1c; */
+  padding: 20px;
+  padding: 20px 19px 18px 17px;
+  /* padding-top: 10px;
+  padding-right: 10px;
+  padding-right: 10px;
+  padding: 10px; */
+
+  background-color: #d0c6c6;
+}
+
+li {
+  border: 1px solid #1ed618;
+  padding: 7px;
+  background-color: #93c69b;
+  margin: 10px;
+}
+
+a {
+  border: 1px solid #650fe7;
+  background-color: #c9bef1;
+  padding: 5px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border: 20px solid #0094f6;
+  background-color: #e25d5d;
+  text-align: center;
+  padding: 20px;
+}
+
+.box-1 {
+  margin-bottom: 30px;
+  box-sizing: content-box;
+}
+
+.box-2 {
+  background-color: #39e2ce;
+  box-sizing: border-box;
+}

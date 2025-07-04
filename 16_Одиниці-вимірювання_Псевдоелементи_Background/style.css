@@ -1,0 +1,95 @@
+body {
+  background-image: url(img/ice_crema.svg);
+  background-repeat: repeat;
+}
+.box {
+  /* opacity: 0; */
+  /* display: none; */
+  /* width: 400px; */
+  width: 80%;
+  padding: 30px;
+  /* height: 100px; */
+  border: 1px solid #000;
+  margin: 0 auto;
+  background-color: #babbba;
+  background-image: url(./img/ice_crema.svg), url(./img/station.webp);
+  background-repeat: no-repeat;
+  background-position: bottom 5px right 5px, center;
+  background-size: 50px, cover;
+  background-clip: content-box;
+  /* background: content-box #babbba url(./img/ice_crema.svg),
+    url(./img/station.webp) no-repeat bottom 5px right 5px, center 50px, cover; */
+}
+
+.text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: transparent;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.text::selection {
+  background-color: #11e134;
+  color: red;
+}
+
+.text::first-letter {
+  font-size: 50px;
+  color: blue;
+  margin-right: 7px;
+}
+.text::first-line {
+  font-size: 13px;
+  color: blueviolet;
+}
+
+/* strong {
+  font-size: 150%;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2em; /* = 32px */
+}
+h1::before {
+  content: "☃";
+  font-size: 40px;
+  color: orange;
+}
+
+h1:hover::before {
+  font-size: 50px;
+  color: rgb(0, 255, 72);
+}
+
+div {
+  font-size: 20px;
+}
+h2 {
+  font-size: 1.5em; /* = 24px */
+}
+aside {
+  font-size: 0.75em; /* = 12px */
+}
+aside:hover {
+  font-size: 0.75em; /* = 12px */
+  color: red;
+}

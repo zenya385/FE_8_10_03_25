@@ -1,0 +1,67 @@
+body {
+  color: red;
+  font-family: Roboto;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.title {
+}
+
+.text {
+  text-transform: uppercase;
+  text-indent: 15px;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.list {
+  font-family: Dancing Script;
+  text-align: center;
+  color: gray;
+}
+
+.item {
+}
+
+.link {
+  /* text-decoration: none; */
+}
+
+.wrap {
+}
+
+.title {
+}
+.text {
+  text-align: justify;
+  text-transform: uppercase;
+  text-indent: 15px;
+  font-size: 20px;
+}
+.list {
+  text-align: center;
+}
+.item {
+}
+.link {
+  /* text-decoration: none; */
+}
+.wrap {
+}
+.link-alone {
+  /* text-decoration: none; */
+}
+.wrap-2 {
+}
+.link-alone-2 {
+  /* text-decoration: none; */
+}
