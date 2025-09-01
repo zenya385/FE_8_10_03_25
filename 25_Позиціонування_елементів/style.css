@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  height: 100vh;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+  border-radius: 5px;
+
+  font-size: 35px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.item:nth-child(1) {
+  background-color: #05f354;
+}
+.item:nth-child(2) {
+  background-color: #fc0606;
+}
+.item:nth-child(3) {
+  background-color: #2409f7;
+
+  /*=============== позиціонування */
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+.item:nth-child(4) {
+  background-color: #f708bb;
+}
